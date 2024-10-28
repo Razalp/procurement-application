@@ -1,9 +1,10 @@
 import React from 'react';
+import AddSupplierModal from './AddSupplier';
 
 const Supplier = () => {
   return (
     <div className="h-screen p-4 relative">
-      <button className="btn btn-primary fixed top-4 right-4">Add Supplier</button>
+      <AddSupplierModal />
       <div className="mt-16"> {/* Added margin-top to create space below the button */}
         <div className="flex w-full overflow-x-auto">
           <table className="table">
